@@ -1,4 +1,18 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.header {
+  a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+      color: #ccc;
+    }
+  }
+  
+  li {
+    @include mobile {
+      text-align: center;
+      border: 1px solid #fff;
+      width: 50%;
+    }
+  }
 }
