@@ -1,13 +1,4 @@
 .header {
-  a {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    &:hover {
-      color: #ccc;
-    }
-  }
-  
   li {
     @include mobile {
       text-align: center;

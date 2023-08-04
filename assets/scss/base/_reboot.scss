@@ -1,0 +1,12 @@
+a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  &:hover {
+    color: #ccc;
+  }
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
